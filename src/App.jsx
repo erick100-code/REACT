@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import AddTaks from "./components/AddTaks"
-import Tasks from "./components/tasks"
+import Tasks from "./components/Tasks"
 import Title from "./components/title";
 import './App.css'
 import { v4 } from "uuid"
