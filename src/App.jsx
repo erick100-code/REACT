@@ -6,8 +6,6 @@ import './App.css'
 import { v4 } from "uuid"
 // import { json } from "react-router-dom"
 
-
-
 function App() {
   const [tasks, setTasks] = useState(
     JSON.parse(localStorage.getItem("tasks")) || []
